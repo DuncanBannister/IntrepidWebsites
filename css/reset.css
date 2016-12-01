@@ -175,3 +175,57 @@ table {
 }
 
 
+.pi-gallery-item {
+    display: inline-block;
+    position: relative;
+    z-index: 1;
+    width: 15%;
+}
+.pi-gallery-item1 {
+    display: inline-block;
+    position: relative;
+    z-index: 1;
+    width: 13%;
+}
+.pi-gallery-item2 {
+    display: inline-block;
+    position: relative;
+    z-index: 1;
+    width: 17%;
+}
+.pi-gallery-item3 {
+    display: inline-block;
+    position: relative;
+    z-index: 1;
+    width: 15%;
+}
+.pi-gallery-item4 {
+    display: inline-block;
+    position: relative;
+    z-index: 1;
+    width: 13%;
+}
+.pi-gallery-item5 {
+    display: inline-block;
+    position: relative;
+    z-index: 1;
+    width: 14%;
+}
+.pi-gallery-item6 {
+    display: inline-block;
+    position: relative;
+    z-index: 1;
+    width: 20%;
+}
+.pi-gallery-item7 {
+    display: inline-block;
+    position: relative;
+    z-index: 1;
+    width: 10%;
+}
+.pi-gallery-item8 {
+    display: inline-block;
+    position: relative;
+    z-index: 1;
+    width: 12%;
+}
