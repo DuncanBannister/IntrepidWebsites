@@ -525,11 +525,15 @@ jQuery(function($){
 		if (scrollTopExcess > reduceTreshold && stateReduce != 'reduced') {
 			requestAnimationFrame(function(){
 				$reducibleRow.addClass(classReduced);
+				$(".pi-row-lg .pi-row-block-logo a").css("margin-top", "5px");
+				$(".pi-row-lg .pi-row-block-logo img").css("max-height", "65px");
 			});
 			stateReduce = 'reduced';
 		} else if(scrollTopExcess <= reduceTreshold && stateReduce != 'default') {
 			requestAnimationFrame(function(){
 				$reducibleRow.removeClass(classReduced);
+				$(".pi-row-lg .pi-row-block-logo a").css("margin-top", "12px");
+				$(".pi-row-lg .pi-row-block-logo img").css("max-height", "70px");
 			});
 			stateReduce = 'default';
 		}
